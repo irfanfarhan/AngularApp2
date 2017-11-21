@@ -4,6 +4,8 @@ import { SharedModule } from '../shared/shared.module';
 import { MyProjectRoutingModule } from './my-project-routing.module';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { FirstPageComponent } from './components/first-page/first-page.component';
+import { SecondPageComponent } from './components/second-page/second-page.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 @NgModule({
     imports: [
@@ -13,7 +15,9 @@ import { FirstPageComponent } from './components/first-page/first-page.component
     ],
     declarations: [
     NavigationComponent,
-    FirstPageComponent],
+    FirstPageComponent,
+    SecondPageComponent,
+    DashboardComponent],
     entryComponents: [],
     providers: []
 })

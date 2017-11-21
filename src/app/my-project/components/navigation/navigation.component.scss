@@ -1,4 +1,8 @@
-.navbar-brand{
+.header{
+  background-color: #6bb756;
+  color:#FFFFFF;
+  border: none;
+  .navbar-brand{
     img{
         position: relative;
         margin-top: -21px;
@@ -6,4 +10,9 @@
         top: 12px;
         height: 40px;
     }
+  }
+  a{
+    color:#FFFFFF !important;
+  }
 }
+
